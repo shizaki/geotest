@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD> 
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<TITLE></TITLE>
+<script type="text/javascript">
+
+if(navigator.geolocation){
+
+navigator.geolocation.getCurrentPosition(function(position){
+    alert("緯度:" + position.coords.latitude + "  経度:" + position.coords.longitude + "  緯度経度の精度:" + position.coords.accuracy);
+    
+});
+
+
+}else{
+	alert('n/a');
+}
+
+</script>
+</HEAD>
+<BODY>
+test
+
+</BODY>
+</HTML>
